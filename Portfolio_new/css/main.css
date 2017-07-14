@@ -1,0 +1,67 @@
+@font-face {
+	font-family: BebasBold;
+	src: url(../fonts/BebasBold.otf)
+}
+body {
+	font-family: BebasBold;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+.header {
+	position: relative;
+	width: 100%;
+	background: url(../img/header.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.wish_map{
+	position: relative;
+	width: 100%;
+	background: url(../img/blurred_1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.header h1 {
+	font-size: 90px;
+	color: #fefefe;
+	position: absolute;
+	top: 70%;
+	transform: translateY(-50%);
+	text-align: center;
+	width: 100%;
+}
+.wish_map h2 {
+	font-size: 70px;
+	color: #fefefe;
+	position: absolute;
+	top: 10%;
+	transform: translateY(-50%);
+	text-align: center;
+	width: 100%;
+}
+.absolute {
+	width: 100%;
+	position: absolute;
+	top: 60%;
+	transform: translateY(-50%);
+}
+.notebook{
+	margin: 0 auto;	
+	height: 600px;
+	width: 1025px;
+	background: url(../img/comp.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+iframe.html {
+	margin-left: 161px;
+	width: 701px;
+	height: 491px;
+	margin-top: 28px;
+}
+.iphone_ipad {
+	padding-top: 185px;
+	margin: 0 auto;
+}

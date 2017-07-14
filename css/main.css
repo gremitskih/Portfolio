@@ -1,0 +1,84 @@
+@font-face {
+	font-family: BebasBold;
+	src: url(../fonts/BebasBold.otf);
+}
+body {
+	font-family: 'BebasBold';
+	letter-spacing: 3px;
+}
+.no-gutters {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+.header {
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background: url(../img/header1.jpg);
+}
+p.h2 {
+	color:  black;
+	font-size: 87px;
+	font-weight: 700;
+	line-height: 90px;
+	text-align: center;
+}
+p.h3 {
+	line-height: 90px;
+	font-size: 90px;
+	color:  black;
+	font-weight: 700;
+	text-align: center;
+}
+p.h4 {
+	color:  black;
+	font-size: 89px;
+	font-weight: 400;
+	line-height: 70px;
+	text-align: center;
+	padding-top: 80px;
+}
+p.black {
+	color: black;
+}
+.header-text {
+	padding-top: 600px;
+}
+.karta {
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.iphone {
+	padding-top: 70px;
+}
+.maysale {
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #fcdee0;
+}
+.tech {
+	padding-top: 200px;
+}
+.tech2 {
+	padding-top: 130px;
+}
+.comp_bcg{
+	width: 750px;
+	height: 440px;
+	background: url(../img/comp.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+iframe#maysale {
+	margin-left: 118px;
+	width: 514px;
+	height: 360px;
+	margin-top: 21px;
+}

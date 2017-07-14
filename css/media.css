@@ -1,0 +1,57 @@
+@media screen and (min-width: 1281px) {
+	.header-text {
+		padding-top: 400px;
+	}
+	p.h4 {
+		padding-top: 25px;
+		font-size: 70px;
+	}
+	.tech {
+		padding-top: 80px;
+	}
+	.tech2 {
+		padding-top: 80px;
+	}
+}
+@media screen and (min-width: 1400px) {
+	p.h4 {
+		padding-top: 60px;
+	}
+	.tech {
+		padding-top: 145px;
+	}
+	.tech2 {
+		padding-top: 100px;
+	}
+}
+@media screen and (min-width: 1601px) {
+	div.bigscreen {
+		margin-top: 280px;
+	}
+	.comp_bcg {
+		width: 900px;
+		height: 530px;
+	}
+	iframe#maysale {
+		margin-left: 142px;
+		width: 618px;
+		height: 433px;
+		margin-top: 25px;
+	}
+	.header-text {
+		padding-top: 400px;
+	}
+	p.h4 {
+		margin-top: 60px;
+		font-size: 89px;
+	}
+	.tech {
+		padding-top: 230px;
+	}
+	.tech2 {
+		padding-top: 150px;
+	}
+	.iphone {
+		padding-top: 150px;
+	}
+}

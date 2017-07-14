@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Портфолио</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/modernizr.js"></script>
+</head>
+<body>
+	<div id="fullpage">
+		<div class="section header">
+			<h1>Специальные проекты на «Я&nbspПокупаю»</h1>
+		</div>
+		<div class="section wish_map">
+			<h2>Проект «Карта желаний»</h2>
+			<div class="container absolute">
+			<div class="row">
+			<div class="col-sm-4"> <div class="iphone_ipad"><img class="pull-right" src="img/karta_iphone_ipad.png" alt=""></div></div>
+			<div class="col-sm-8"><div class="notebook"><iframe class="html" src="html/karta.html" frameborder="0"></iframe></div></div>
+			</div>
+			</div>
+		</div>
+		<div class="section">
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="js/jquery.fullPage.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				anchors: ['block1', 'block2', 'block3', 'block4'],
+				menu: '#menu',
+				css3: true,
+				scrollingSpeed: 1000
+			});
+		});
+	</script>
+</body>
+</html>
